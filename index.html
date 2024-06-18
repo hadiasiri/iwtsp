@@ -1,52 +1,0 @@
-
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>آيواتساب | إنشاء رابط واتساب مباشر</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li class="logo"><img src="logo.png" alt="Logo"></li>
-                <li><a href="#">الرئيسية</a></li>
-                <li><a href="#">من نحن</a></li>
-                <li><a href="#">سياسة الخصوصية</a></li>
-                <li><a href="#">شروط الاستخدام</a></li>
-                <li><a href="#">الأسئلة الشائعة</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>آيواتساب</h1>
-        <p>إنشاء رابط واتساب مباشر يسهل التواصل معك بدون حفظ الرقم.</p>
-        <div class="input-group">
-            <div class="input-group-prepend">
-                <select id="countryCode">
-                    <option value="966" data-flag="sa">🇸🇦 السعودية (+966)</option>
-                    <option value="971" data-flag="ae">🇦🇪 الإمارات (+971)</option>
-                    <option value="965" data-flag="kw">🇰🇼 الكويت (+965)</option>
-                    <option value="974" data-flag="qa">🇶🇦 قطر (+974)</option>
-                    <option value="968" data-flag="om">🇴🇲 عمان (+968)</option>
-                    <option value="20" data-flag="eg">🇪🇬 مصر (+20)</option>
-                    <!-- Add more countries as needed -->
-                </select>
-            </div>
-            <input type="text" id="phoneNumber" placeholder="051 234 5678">
-            <button onclick="generateLink()">حول</button>
-        </div>
-        <p>لتحويل رقم الواتس إلى رابط مباشر أدخل رقم الجوال ثم اضغط زر التحويل</p>
-        <p id="link"></p>
-    </div>
-    <div class="social-icons">
-        <a href="#" class="whatsapp">واتساب</a>
-        <a href="#" class="facebook">فيسبوك</a>
-        <a href="#" class="twitter">تويتر</a>
-        <a href="#" class="google">جوجل</a>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
