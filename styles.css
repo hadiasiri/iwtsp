@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #00b09b, #96c93d);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input-group-prepend {
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    width: calc(100% - 100px);
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p#linkOutput {
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+    color: #4caf50;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer p {
+    color: #777;
+    margin: 0;
+}
+    

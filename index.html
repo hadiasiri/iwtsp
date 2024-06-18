@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء رابط واتساب مباشر</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+                <li><a href="#">شروط الاستخدام</a></li>
+                <li><a href="#">الأسئلة الشائعة</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <h1>آيواتساب</h1>
+            <p>إنشاء رابط واتساب مباشر يسهل التواصل معك بدون حفظ الرقم.</p>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <select id="countryCode">
+                        <option value="966">+966</option>
+                        <option value="971">+971</option>
+                        <option value="965">+965</option>
+                        <!-- أضف المزيد من الدول هنا -->
+                    </select>
+                </div>
+                <input type="tel" id="phoneNumber" placeholder="051 234 5678">
+            </div>
+            <button onclick="generateLink()">حول</button>
+            <p id="linkOutput"></p>
+            <p>لتحويل رقم الواتس إلى رابط مباشر أدخل رقم الجوال ثم اضغط زر التحويل</p>
+        </main>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+        <p>&copy; 2024 جميع الحقوق محفوظة.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    
