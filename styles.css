@@ -1,133 +1,139 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #00b09b, #96c93d);
     margin: 0;
     padding: 0;
-    text-align: center;
+    background: linear-gradient(135deg, #4caf50 0%, #2c7d39 100%);
+    background-size: cover;
     color: white;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-logo img {
-    max-height: 40px;
-    margin-left: 20px;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    direction: rtl;
 }
 
 nav ul li {
     margin: 0 15px;
 }
 
+nav ul li.logo {
+    margin-left: auto;
+    margin-right: 0;
+}
+
 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #fff;
     font-weight: bold;
 }
 
 .container {
-    max-width: 600px;
-    margin: 100px auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #333;
-}
-
-h1 {
-    color: #333;
-}
-
-p {
-    margin-bottom: 20px;
-    color: #555;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 500px;
 }
 
 .input-group {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .input-group-prepend {
-    margin-right: 10px;
+    background: #eee;
+    border-right: 1px solid #ccc;
 }
 
 select {
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
+    border: none;
+    background: transparent;
     outline: none;
+    font-size: 16px;
 }
 
-input[type="tel"] {
+input {
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 0 4px 4px 0;
-    width: calc(100% - 100px);
-    box-sizing: border-box;
+    width: calc(100% - 220px);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+    text-align: center;
 }
 
 button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    border: none;
+    background-color: #25d366;
+    color: #fff;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #1ebe57;
 }
 
-p#linkOutput {
+p {
     margin-top: 20px;
-    word-wrap: break-word;
+    color: white;
 }
 
-footer {
-    background-color: #fff;
-    padding: 10px 0;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+.social-icons {
     position: fixed;
-    width: 100%;
-    bottom: 0;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
-footer .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-footer .social-icons a {
+.social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: #333;
+    border-radius: 4px;
     text-decoration: none;
-    color: #4caf50;
-    margin: 0 10px;
-    font-size: 20px;
 }
 
-footer p {
-    color: #777;
-    margin: 0;
+.social-icons a.whatsapp {
+    background-color: #25d366;
 }
-    
+
+.social-icons a.facebook {
+    background-color: #3b5998;
+}
+
+.social-icons a.twitter {
+    background-color: #1da1f2;
+}
+
+.social-icons a.google {
+    background-color: #db4437;
+}
